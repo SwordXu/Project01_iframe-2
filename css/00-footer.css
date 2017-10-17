@@ -1,0 +1,73 @@
+/*该文件编写的都是与footer.html有关的css*/
+div.main{
+	width:960px;
+	margin:0 auto;
+}
+#foot-box{
+	padding:30px 0;
+	background-color:#F5F5F5;
+	/*问题1、高度变为0*/
+	border-radius:30px;
+}
+#foot-other{
+    padding:30px 0;
+}
+#foot-box>div{
+	/*左浮动，宽度，内容水平居中对齐*/
+	float:left;
+	width:240px;
+	text-align:center;
+}
+#foot-box p{
+	font-size:14px;
+}
+#foot-other>div{
+	float:left;
+	width: 320px;
+}
+#foot-other>div:first-child{
+    width:300px;
+}
+#foot-other>div:nth-child(2){
+    width:340px;
+}
+#foot-other div.logo p img{
+    width:150px;
+	padding-left:50px;
+} 
+#foot-other ul{
+	/*左浮动，宽度，行高*/
+	float:left;
+	width:100px;
+	line-height:25px;
+}
+#foot-other ul.mid{
+	margin:0 10px;	
+}
+#foot-other ul a{
+/*取消下划线 字体颜色*/
+	text-decoration:none;
+	color:#808080;
+}
+#foot-other ul a:hover{
+	color:#333;
+}
+/*客户端&二维码*/
+#foot-other div.qrCode{
+	float:right;
+}
+#foot-other div.service{
+	float:right;
+}
+#foot-other div.service img{
+	display:block;
+	margin-bottom:5px;
+}
+#foot-other div.service p{
+	color:#333;
+	font-size:14px;
+	margin-bottom:10px;
+}
+#empt{
+	clear:both;
+}

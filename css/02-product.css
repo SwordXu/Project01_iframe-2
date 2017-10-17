@@ -1,0 +1,20 @@
+#header,#banner,#product-list,#footer{
+ min-height:200px;
+}
+#header{background:red;}
+#banner{background:green;}
+#footer{background:orange;}
+#plist{background:yellow;}
+#notice-board{background:pink;}
+/****************************************************/
+#product-list{
+/* 变为弹性布局容器，内容连段对齐*/
+ display:flex;
+ justify-content:space-between;
+}
+#plist{
+ width:750px;
+}
+#notice-board{
+ width:200px;
+}

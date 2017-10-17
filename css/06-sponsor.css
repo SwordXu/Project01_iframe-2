@@ -1,0 +1,39 @@
+.sponsor{
+ width:100%;
+ border-radius:15px;
+ margin:20px 0;
+ background-color:#fff;
+ overflow:hidden;
+}
+.sponsor .sponsor-title{
+ width:15%;
+ background-color:crimson;
+ min-height:130px;
+ color:#fff;
+ text-align:center;
+ border-radius:15px 0 0 15px;
+}
+.sponsor .sponsor-title p{
+ display:block;
+ font-size:24px;
+ padding-top:20%;
+ font-weight:600;
+}
+.pull-left{
+  float:left !important;
+}
+.sponsor .sponsor-photo ul{
+ display:flex;
+}
+.sponsor .sponsor-photo img{
+ height:130px;
+ padding-right:20px;
+}
+ul{
+  border: 1px solid crimson;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+}
+li {
+ padding-left: 40px;
+}

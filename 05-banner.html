@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Expires" content="-1">
+  <meta http-equiv="cache-control" content="no-cache">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/banner.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <div class="main">
+    <!--2、banner部分-->
+    <div id="banner">
+      <!-- 图片区域 -->
+      <ul class="banner-img" 
+          style="transition:all .5s linear;" data-load="bannerImgs">
+          <!-- 
+            <li>
+              <a href="${product_details.html?lid=28}">
+                <img src="${img/index/banner1.png}">
+              </a>
+            </li> 
+          -->
+      </ul>
+      <!--左右方向按钮-->
+      <a href="#" class="ck-slide ck-left" data-move="left"></a>
+      <a href="#" class="ck-slide ck-right" data-move="right"></a>
+      <!--导航小圆点-->
+      <ul class="indicators" data-load="bannerInds">
+        <!-- <li></li> -->
+      </ul>
+    </div>
+  </div>
+  <script src="js/myQuery.js"></script>
+  <script src="js/ajax.js"></script>
+  <script src="js/01-index.js"></script>
+</body>
+</html>

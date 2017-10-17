@@ -1,0 +1,67 @@
+#header-top{
+  padding-top:50px;
+}
+#logo{
+ float:left;
+}
+#logo img{
+    height: 80px;
+    margin-top: -25px
+}
+#top-input{
+/*左浮动，左外边距*/
+ float:left;
+ margin-left:30px;
+ margin-top:3px;
+}
+#top-input div.input-box{
+ float:left;
+ margin-left:20px;
+ /*宽度 高度 BOX-SIZING 边框*/
+ width:400px;
+ height:34px;
+ box-sizing:border-box;
+ border:1px solid #0aa1ed;
+}
+#top-input>a{
+ float:left;
+ width:37px;
+ height:34px;
+}
+#txtSearch{
+/* 边框 轮廓 宽度 高度 box-sizing  背景色*/
+ border:0;
+ outline:0;
+ width:320px;
+ height:32px;
+ box-sizing:border-box;
+ background:#f5f5f5;
+ padding-left:10px;
+}
+#top-input .sort-search i{
+ border:7px solid transparent;
+ border-top-color:#bbb;
+ position:relative;
+ top:10px;
+}
+#list li{
+ float:left;
+ height:20px;
+ line-height:20px;
+ padding-left:5px;
+}
+#list{
+ float:right;
+ margin-top:8px;
+}
+#nav{
+ margin-top:40px;
+}
+#nav li{
+ float:left;
+ margin-right:50px;
+}
+#nav li a{
+ font-size:16px;
+ color:black;
+}

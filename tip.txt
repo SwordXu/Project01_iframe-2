@@ -1,0 +1,13 @@
+1.首页
+ http://www.codeboy.com
+2.商品搜索页面
+ 输入搜索内容后的页面
+ http://www.codeboy.com/products.html?kw=
+3.商品详情页
+ 查看商品详情 显示的页面
+ http://www.codeboy.com/products_details.html?lid=
+4.购物车页面
+ 取购物车结算时   显示的页面
+ http://www.codeboy.com/cart.html
+5.注册页面 
+6.登录界面

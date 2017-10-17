@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- 该页面写好之后会被其他页面通过<iframe></iframe>进行引入 -->
+	<meta charset="UTF-8">
+	<title>页面头部</title>
+	<link rel="stylesheet" href="css/00-common.css">
+	<link rel="stylesheet" href="css/01-header.css">
+</head>
+<body>
+	<div class="main">
+   <!-- 1.顶部-LOGO  搜索框 登录注册	  -->
+   <div id="header-top" class="clear">
+    <!--1.1 LOGO-->
+		<a href="index.html" target="_top" id="logo">
+		 <img src="img/header/logo.png">
+		</a>
+    <!--1.2 中间：搜索框（文本框）-->
+		<div id="top-input">
+     <!--1.2.1搜索框，分类搜索-->
+     <div class="input-box">
+      <!--1.2.1.1 input-->
+			<input type="text" id="txtSearch">
+      <!--1.2.1.2 分类搜索-->
+			<span class="sort-search">
+			 分类搜索
+			 <i></i> <!-- 向下小三角 -->
+			</span>	
+		 </div>
+		 <!--1.2.2搜索的图标-->
+		 <a href="#">
+		  <img src="img/header/search.png">
+		 </a>
+		</div>
+    <!--1.3 右侧：注册 登录 列表-->
+		<ul id="list" class="clear">
+		 <li>
+		  <a href="#">
+			 <img src="img/header/care.png">
+			</a>
+			<span>|</span>
+		 </li>
+		 <li>
+		  <a href="#">
+			 <img src="img/header/order.png">
+			</a>
+			<span>|</span>
+		 </li>
+		 <li>
+		  <a href="#">
+			 <img src="img/header/shop_car.png">
+			</a>
+			<span>|</span>
+		 </li>
+		 <li>
+		  <span><a href="manage/01-register.html" target="_blank">注册</a></span>
+		  <span>|</span>
+		 </li>
+		 <li>
+		  <span><a href="manage/03-login.html" target="_blank">登录</a></span>
+		 </li>
+		</ul>
+	 </div>
+	 <!-- 2.主导航	  -->
+	 <nav id="nav" class="clear">
+	  <ul>
+		 <li>
+		  <a href="#">首页</a>
+		 </li>
+		 <li>
+		  <a href="#">商铺批发</a>
+		 </li>
+		 <li>		 
+		  <a href="#">私人订制</a>
+		 </li>
+		</ul>
+	 </nav>
+	</div>
+</body>
+</html>

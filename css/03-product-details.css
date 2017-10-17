@@ -1,0 +1,30 @@
+#header,#bread-crumb,#preview,#recommend,#show-details,#item-info,#footer{
+ min-height:200px;
+}
+
+#header{background:red;}
+#bread-crumb{background:blue;}
+#preview{background:yellow;}
+#show-details{background:purple;}
+#recommend{background:green;}
+#item-info{background:black;}
+#footer{background:gray;}
+
+/*****************************************/
+
+#product-details{
+/* 弹性布局的容器，内容两端对齐，允许换行*/
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+#preview{
+ width:450px;
+}
+#show-details{
+ width:490px;
+}
+#recommend{
+ width:100%;
+}
